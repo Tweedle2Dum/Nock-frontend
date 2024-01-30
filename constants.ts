@@ -1,0 +1,1 @@
+export const BASE_URL = 'https://atapp.fly.dev/v1'
