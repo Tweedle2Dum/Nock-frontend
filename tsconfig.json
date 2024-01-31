@@ -33,7 +33,7 @@
   },
   "include": [
     "src"
-  ],
+, "Components/UI/SVG/LandingImage.tsx", "Components/UI/SVG/React.tsx"  ],
   "references": [
     {
       "path": "./tsconfig.node.json"

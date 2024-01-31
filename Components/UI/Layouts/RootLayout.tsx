@@ -1,12 +1,15 @@
-import { Outlet } from "react-router-dom"
-type Props = {}
+import { Container } from "@mui/material";
+import { Outlet } from "react-router-dom";
+type Props = {};
 
 const RootLayout = (props: Props) => {
   return (
-    <main>
-      <Outlet/>
+    <main className="min-h-full">
+      <Container maxWidth="sm">
+        <Outlet />
+      </Container>
     </main>
-  )
-}
+  );
+};
 
-export default RootLayout
+export default RootLayout;
